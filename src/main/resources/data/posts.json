@@ -1,0 +1,1738 @@
+{
+  "posts": [
+    {
+      "url": "/blog/2010/08/04/create-sql-insert-statements-from-a-spreadsheet",
+      "title": "Create SQL Insert Statements from a Spreadsheet",
+      "summary": "I know this is probably old news to most but I was helping a friend out yesterday who didn’t know this little trick so I thought I would share it. While some of you may have access to production databases its pretty common that these servers are guarded by a DBA. If I get a huge spread sheet of data I can’t really import the data I need to send the sql statements to the dba and the script is run against the production database.",
+      "date_modified": "2010-08-04T15:08:00.000Z",
+      "date_published": "2010-08-04T15:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/20/grails-hibernate-logging",
+      "title": "Grails Hibernate Logging",
+      "summary": "As a little bit of a Hibernate veteran at this point I know the value of logging when it comes to debugging issues. So before I even get my first application going here I figured I would setup hibernate logging. I am not going to go through everything you can do with logging, you can check out the docs for that.",
+      "date_modified": "2013-08-20T21:08:00.000Z",
+      "date_published": "2013-08-20T21:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/20/groovy-primitive-data-types-vs-classes",
+      "title": "Groovy Primitive Data Types vs Objects",
+      "summary": "A message I posted on the Grails User List spawned another pretty interesting conversation that I would like to share with you. The original question had to do with a declaring a boolean property. Say we have a user domain object and we want to store a bit flag describing whether or not the user was active.",
+      "date_modified": "2013-08-20T16:08:00.000Z",
+      "date_published": "2013-08-20T16:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/20/groovys-null-safe-operator",
+      "title": "Groovy's null safe operator",
+      "summary": "The more years I get under my belt as a programmer the more I appreciate the smaller things a language has to offer. Today I want to look at Groovy's null safe operator. When you want to crawl an object graph you always have to be worried about the dreaded null pointer exception. First I want to take a look at this example in ColdFusion. In this example we are looking at the body of a method where we load up a user object. We want to grab the city of the user object but in each step of the object graph we need to make sure that call is not null before preceding.",
+      "date_modified": "2013-08-20T10:08:00.000Z",
+      "date_published": "2013-08-20T10:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/21/groovy-collections-vs-my-current-thought-process",
+      "title": "Groovy collections vs My Current Thought Process",
+      "summary": "I have been a ColdFusion developer since before I can remember. What I have always loved about the language is that it made hard things really easy to do. Somewhere along the way though I think it lost some of this magic at the core of the language. Let's take a look at a pretty trivial problem (but one that might come up often) and look at how we can solve it in both ColdFusion and Groovy.",
+      "date_modified": "2013-08-21T20:08:00.000Z",
+      "date_published": "2013-08-21T20:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/21/writing-sql-in-a-grails-application",
+      "title": "Writing SQL in a Grails Application",
+      "summary": "I have been using Hibernate for a couple years now and I love it. Every now and then though there are certain times when you are going to have to write some raw SQL. Maybe there is some performance issue you are trying to solve or maybe there are some custom functions that you just can't access. Whatever the case may be there are times when you will need to write some plain old SQL. The question came up on the Grails mailing list so I thought I would share it here.",
+      "date_modified": "2013-08-21T16:08:00.000Z",
+      "date_published": "2013-08-21T16:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/22/groovy-ternary-operator",
+      "title": "Groovy Ternary Operator",
+      "summary": "Another one of the great operators that more and more languages support is their ternary operator. The ternary is a conditional operator and often referred to as an inline if statement. Before we look at how to use it lets take a look at a common problem it helps us solve. There are often times when you want to set a variable to one value if an expression evaluates to true and another if its false. In pseudo code it might look something like this.",
+      "date_modified": "2013-08-22T17:08:00.000Z",
+      "date_published": "2013-08-22T17:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/23/intellij-spring-bean-injection-notification",
+      "title": "IntelliJ Spring Bean Injection Notification",
+      "summary": "In my quest to learn Groovy and Grails I have been using Sublime because that is what I am familiar with. I have also been testing out IntelliJ on the recommendation from almost everyone. I have to agree that it is pretty darn awesome and I want to look at one smaller, but pretty cool feature today.",
+      "date_modified": "2013-08-23T12:08:00.000Z",
+      "date_published": "2013-08-23T12:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/27/grails-interactive-mode-use-it",
+      "title": "Grails Interactive Mode - USE IT",
+      "summary": "When you first start playing around with grails you may have the IDE execute commands for you or you may end up running the commands yourself from a shell. I have been running commands in terminal and for the sake of playing around it was fine. Now that I am working on a project and constantly developing running commands using the traditional grails run-app syntax just won't work.",
+      "date_modified": "2013-08-27T19:08:00.000Z",
+      "date_published": "2013-08-27T19:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2013/08/27/grails-mysql-boolean-gotcha",
+      "title": "Grails MySQL Boolean Gotcha",
+      "summary": "In the small app I am writing for fun I decided that it was time to switch over to a MySQL database. It was suprisingly easy to get Grails to talk to this new database. I won't go over every little step because Joe Rinehart already wrote up a nice guide for connecting grails to mysql. One comment I will make on that article and this was mentioned in the comments is that you can avoid downloading the mysql drivers and having to drop it in the lib folder. Go into grails-app/conf/BuildConfig.groovy & under dependencies uncomment the following line. Grails will then go out and download the dependency for you.",
+      "date_modified": "2013-08-27T22:08:00.000Z",
+      "date_published": "2013-08-27T22:08:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2014/02/23/creating-and-testing-your-first-grails-tag-library",
+      "title": "Creating and testing your first Grails Tag Library",
+      "summary": "I created a quick screencast to walk you through creating and testing your first tag lib",
+      "date_modified": "2014-02-23T12:02:00.000Z",
+      "date_published": "2014-02-23T12:02:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2014/02/25/grails-spring-security-plugin-logout-postonly-setting",
+      "title": "Grails Spring Security Plugin -  Logout postOnly setting",
+      "summary": "I had a question come in about a setting in Spring Security so I thought I would take a quick minute and explain it in case anyone else also has the same question. There is a setting",
+      "date_modified": "2014-02-25T18:02:00.000Z",
+      "date_published": "2014-02-25T18:02:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2014/03/31/grails-generating-links-in-your-domain-class",
+      "title": "Grails: Generating links in your domain class",
+      "summary": "I am working on coverting this site over to a grails applicaiton. While there are some good plugins out there I could of taken advantage of I decided to use this as a learning experience and write a ton of it from scratch. For the blog post itself we have some unique URLs that look like this",
+      "date_modified": "2014-03-31T13:03:00.000Z",
+      "date_published": "2014-03-31T13:03:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2014/04/08/gravatars-on-a-grails-application",
+      "title": "Gravatars on a Grails Application",
+      "summary": "Building out my new site in Grails I needed the ability to show a Gravatar in the comments. I know there are usually plugins out there but I there are a lot of things I am going to do on my own just so I have an excuse to blog about them. First off visit the Gravatar docs to get an idea of how to request an image. This is what the finished product is going to look like. ![Grails Gravatar](./4-8-2014 7-10-53 PM.png) The most basic image request URL looks like this:",
+      "date_modified": "2014-04-08T18:04:00.000Z",
+      "date_published": "2014-04-08T18:04:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2015/02/05/sql-server-exception-statement-not-return-result-set",
+      "title": "SQL Server Exception - The Statement Did Not Return A Result Set",
+      "summary": "We are working on moving a fairly large Dynamic Java Web Project over to a Grails application. In this application we have a ton of stored procedures that we need to continue to use in our Grails app. Luckily it couldn't be easier to call a stored proc in Groovy. If you look at the groovy.sql.Sql class there are a ton of methods for this.",
+      "date_modified": "2015-02-05T16:48:18.000Z",
+      "date_published": "2015-02-05T16:48:18.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2015/04/16/windows-kill-process-by-port-number",
+      "title": "Windows Kill Process By Port Number",
+      "summary": "In this short tutorial, we will look at how to kill a process by port number on Windows. I am doing a lot of Java development these days and I have about 5 different applications that I may fire up during a day and because they all run on my local machine most of them use port 8080 by default. Once in a while, I will forget to kill an application. When I try and start another application I will receive this error.",
+      "date_modified": "2015-04-16T14:35:05.000Z",
+      "date_published": "2015-04-16T14:35:05.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2015/04/24/ready-player-one-review",
+      "title": "Ready Player One Review",
+      "date_modified": "2015-04-25T02:55:09.000Z",
+      "date_published": "2015-04-25T02:55:09.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2015/10/23/spring-boot-application-annotation",
+      "title": "Spring Boot Application Annotation",
+      "summary": "I have been working a lot with Spring Boot lately so you may see a flood of posts from me on the subject (you have been warned). If you are looking at older example and create new projects you may have come across the Spring Boot Application Annotation. If you create a simple project your main class might look something like this.",
+      "date_modified": "2015-10-23T13:08:37.000Z",
+      "date_published": "2015-10-23T13:08:37.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2015/11/25/using-gorm-in-spring-boot",
+      "title": "Using GORM in Spring Boot",
+      "summary": "In this tutorial I am going to explain how to use GORM in Spring Boot. If you have been following along on this blog lately you know that I have been working a lot with Spring Boot. So much so that I created a course on it.",
+      "date_modified": "2015-11-25T16:43:13.000Z",
+      "date_published": "2015-11-25T16:43:13.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2016/01/13/sending-async-emails-in-spring",
+      "title": "Sending Async Emails in Spring",
+      "summary": "I have a student taking my course that sent me the following question",
+      "date_modified": "2016-01-13T15:30:20.000Z",
+      "date_published": "2016-01-13T15:30:20.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2016/01/14/spring-mvc-get-controller-method-name",
+      "title": "Spring MVC Get Controller & Method Name",
+      "summary": "The one thing I really love about my Spring Boot Introductory Course is that my students are always asking me questions. I had this question come in recently and I thought we should take this chance to discuss it.",
+      "date_modified": "2016-01-14T21:27:22.000Z",
+      "date_published": "2016-01-14T21:27:22.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2016/09/20/tech-elevator-meetup-summary",
+      "title": "Tech Elevator Meetup Summary",
+      "summary": "Last night I was lucky enough to be asked to speak on a panel at Tech Elevator. The panel was made up of Senior Developers from the area and it was to a group of Jr. developers. The presentation was Lessons I've Learned in my programming career. It was great to talk to developers that are in the same spot I was in 15+ years ago and I really hope my advice was good for them to hear.",
+      "date_modified": "2016-09-20T12:00:53.000Z",
+      "date_published": "2016-09-20T12:00:53.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2016/10/04/made-20000-sleep",
+      "title": "How I Made $20,000 in my Sleep",
+      "summary": "About a year ago, I set out on a journey that has forever changed my life. The title of this article might be a little bit misleading but I had to get your attention so that I could share my story with you. My hope is that anyone in a similar situation will be inspired by this and take action now.",
+      "date_modified": "2016-10-05T00:26:59.000Z",
+      "date_published": "2016-10-05T00:26:59.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/03/22/spring-boot-entity-scan",
+      "title": "Spring Boot Entity Scan",
+      "summary": "I had a question from a student come up that a lot of new Spring developers come across. It has to do with creating components and in this case more specifically, entities. Let's take a look at the question and then dive into the solution.",
+      "date_modified": "2017-03-22T12:00:44.000Z",
+      "date_published": "2017-03-22T12:00:44.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/03/24/spring-boot-convention-based-error-pages",
+      "title": "Spring Boot Convention Based Error Pages",
+      "summary": "We have to remember that when we put applications out into the wild that things will go wrong. This can be in the form of a user going to a wrong URL or entering invalid data. As much as we like to always blame the users (it must be user error, right?) there are times when we as developers make mistakes.",
+      "date_modified": "2017-03-24T12:00:33.000Z",
+      "date_published": "2017-03-24T12:00:33.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/03/27/spring-stereotype-annotations",
+      "title": "Spring Stereotype Annotations",
+      "summary": "When software developers get introduced to the Spring Framework there are some concepts that can be a little confusing. The good news is once we wrap our head around them they can become second nature. Spring has some specialized annotations called Stereotype Annotations. If that concept is new to you don’t worry, we are going to break everything down for you in this article.",
+      "date_modified": "2017-03-27T12:00:15.000Z",
+      "date_published": "2017-03-27T12:00:15.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/03/31/using-project-lombok-spring-boot",
+      "title": "Using Project Lombok in your Spring Boot Project",
+      "summary": "In this article, we get to take a look at an awesome little project called Project Lombok. If you have been following me for awhile now then you already know I am a huge fan of the Groovy Programming Language. It takes a lot of the things I don't like in Java and makes them better. Like, way better! Groovy is also really GOOD at cutting down the amount of ceremonious code you have to write. If you are working on a Java project and are looking for a way to cut down some of the noise in your code I have a great solution for you. In this article, we are going to look at Project Lombok and dive into what it is and how to use it in your next Spring Boot Application. ",
+      "date_modified": "2017-03-31T12:00:38.000Z",
+      "date_published": "2017-03-31T12:00:38.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/03/2000-subscribers-youtube",
+      "title": "2,000 Subscribers on YouTube!!",
+      "summary": "I was so excited to find out that I crossed 2,000 YouTube Subscribers last week!  https://www.youtube.com/watch?v=40kw1-fSAbo Just like my blog I am going to make a few changes on the YouTube channel. I am going to focus the content on mostly programming related topics. I also am going to work on a consistent schedule. With a consistent schedule between my blog and YouTube channel, I think the I can do some big things in 2017 and beyond. Thank you to everyone for the support over of the years. I very much appreciate it.",
+      "date_modified": "2017-04-03T12:30:34.000Z",
+      "date_published": "2017-04-03T12:30:34.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/05/java-equals",
+      "title": "Java: What is the difference between equals and ==",
+      "summary": "This is going to be a fun and personal post for me. The problem that we are going to look at in this article is something we are taught as young software developers. I saw this question on a facebook group that I am a part of and I made the same mistake at work debugging a critical ticket. If you want to find out what trips up newbies and veterans alike, continue reading this article. ",
+      "date_modified": "2017-04-05T12:00:50.000Z",
+      "date_published": "2017-04-05T12:00:50.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/07/spring-boot-command-line-runner",
+      "title": "Spring Boot Command Line Runner",
+      "summary": "A student asked me the other day what a Command Line Runner was and when can we use one. If you watch demos of Spring Boot features or applications you have probably seen this and said to yourself \"What the heck is that?\". If you take a look a look at the API Documentation for Command Line Runner you will get this elegant explanation.",
+      "date_modified": "2017-04-07T12:00:43.000Z",
+      "date_published": "2017-04-07T12:00:43.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/10/inserting-a-groovy-date-into-a-time-stamp-column",
+      "title": "Inserting a Groovy Date into a Time Stamp Column",
+      "summary": "Working with Dates in any language is one of those core fundamentals you need to know right away. Lucky for us, Groovy makes it super simple to work with dates. I am working on a project where I am using straight SQL to insert a record into a database using Groovy. It's pretty darn easy in most languages to grab the current date/time and in Java, you can do so just by creating a new instance of the Date class.",
+      "date_modified": "2017-04-10T12:00:06.000Z",
+      "date_published": "2017-04-10T12:00:06.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/17/java-9",
+      "title": "Getting Started with Java 9",
+      "summary": "I don't know about you but I love to play around with pre-releases of software. There is something really fun being one of the first to use a new feature and learn how the new release is going to make our lives as developers a little bit easier. Java 9 is coming soon and I am really looking forward to some of the new features. Java 9 has had a couple of delays to date but as I am writing this article (April 2017), it is set to be released in July 2017. There are so many great features in Java 9 and you don't have to wait until July to start checking them out today. In this article, we will go through a quick tutorial on where to get Java 9 and how to get yourself setup. ",
+      "date_modified": "2017-04-17T15:05:58.000Z",
+      "date_published": "2017-04-17T15:05:58.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/19/what-is-jhipster",
+      "title": "What is JHipster & Why you need to start using it today!",
+      "summary": "In today's post, I want to talk to you about one of my favorite open source projects around, JHipster. In short, JHipster is a Yeoman Generator used to create a Spring Boot and Angular project. When you get past building sample and demo projects there is a lot of different technologies and stacks that go into building a scalable, complete and modern web application.",
+      "date_modified": "2017-04-19T13:38:31.000Z",
+      "date_published": "2017-04-19T13:38:31.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/21/how-do-you-define-success",
+      "title": "How do you Define Success as a Software Developer",
+      "summary": "I had a personal situation that transpired yesterday and while I won't get into the details of that here, It did inspire me to write this article. What I do want to share with you is the amazing advice a person in a position of leadership gave to a friend. There was one person involved that was forced into questioning where they were in their career and whether or not they were successful. The person on the other end of the conversation gave some excellent advice and this is what you can expect from great leaders.  He asked, \"How do you define success?\". This is a fantastic question and I want to dive into this today from a Software Engineer perspective.",
+      "date_modified": "2017-04-21T14:00:07.000Z",
+      "date_published": "2017-04-21T14:00:07.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/24/spring-boot-2-0-roadmap",
+      "title": "Spring Boot 2.0 Roadmap",
+      "summary": "I am a huge fan of open source projects but I love a well-maintained project even more. I like to know when milestones are scheduled to be released and what are some of the features we can expect in them. The Spring Boot team does a very good job of making this information available to the public. Thanks to that we have a pretty good idea of when Spring Boot 2.0 is going to land and some of the features that it will include. In this article, I want to talk about that roadmap and share with you a pretty big announcement. ",
+      "date_modified": "2017-04-24T12:00:05.000Z",
+      "date_published": "2017-04-24T12:00:05.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/26/what-is-going-wrong-on-the-spring-boot-view-layer",
+      "title": "What is going wrong on the Spring Boot View Layer?",
+      "summary": "Today we are going to dive into a question from a student of mine. It may seem obvious to some people what is happening but unless you really understand what is going on in the Spring Boot View Layer It can be a little bit confusing.",
+      "date_modified": "2017-04-26T13:02:28.000Z",
+      "date_published": "2017-04-26T13:02:28.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/04/28/every-developer-start-blog-right-now",
+      "title": "Why every developer should start a blog right now!",
+      "summary": "In this article, I want to dive into why I believe that every developer should start a blog right now. This will be a little bit of a bias opinion because I believe this is where both my career and my life's mission started. I realize that not everyone is walking the same path as I am in life. With that said I do see some real value in sharing your experiences as a developer with others. I am going to share my journey with you and give you the one thing I wish I would have known when I started blogging.",
+      "date_modified": "2017-04-28T13:15:56.000Z",
+      "date_published": "2017-04-28T13:15:56.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/01/add-validation-spring-entities",
+      "title": "How to add validation to your Spring Entities",
+      "summary": "A student had a question about validating data at the domain level and so I thought it would share it with you.",
+      "date_modified": "2017-05-01T20:37:13.000Z",
+      "date_published": "2017-05-01T20:37:13.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/03/spring-angular-applications",
+      "title": "How to start writing Angular & Spring Applications",
+      "summary": "If your story reads anything like mine this is going to be an exciting post. I have worked with Angular JS 1.x in both projects and large scale projects at work. I honestly liked the framework but always felt that it was a bit too boilerplate and complex. Now that Angular 2, and subsequently Angular 4 has been released I have spent the last few months catching up. If you ever felt like I did towards Angular 1.x I am here to tell you that it is time to give Angular another look.  I absolutely love building Angular 2 & Spring Applications and in this article, I am going to give you some resources to help kick start your journey. ",
+      "date_modified": "2017-05-03T13:00:37.000Z",
+      "date_published": "2017-05-03T13:00:37.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/05/make-weakness-strength",
+      "title": "How to Make your weakness your strength",
+      "summary": "I have been writing software for a fairly long time now. I have worked on applications that range from open source projects to a suite of applications that run a $5B dollar company. If you want to stay relevant in this industry though you have always got to be learning and improving your craft. One of the best things you can do is identify an area of weakness and work on improving it. A friend of mine is preparing for an interview next week and asked for some help. I haven't been on an actual coding interview in probably 10 years so I might not be the best person to ask but, what are friends for. In this article, we are going to look at some exercises he was trying to tackle. These questions led me to realize that I have a weakness that I would like to improve on. ",
+      "date_modified": "2017-05-05T12:00:15.000Z",
+      "date_published": "2017-05-05T12:00:15.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/08/enable-new-youtube-dark-theme-right-now",
+      "title": "Enable the new YouTube Dark Theme right now",
+      "summary": "YouTube is working on rolling out a new design for their desktop application. This new design is cleaner, easier to use and gives channels a brand new look. All that is great but what really has me excited is the all new dark theme.  They are still in the process of testing this out but in this article, I will show you how you can take advantage of this today.  The 1st thing you need to do is go to http://www.youtube.com/new and click try it now to opt-in to the new design. ",
+      "date_modified": "2017-05-08T12:00:50.000Z",
+      "date_published": "2017-05-08T12:00:50.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/10/spring-boot-moving-tomcat-jetty",
+      "title": "Moving from Tomcat to Jetty in your Spring Boot Application",
+      "summary": "I love getting questions from students because it gives me a great idea of the real world problems people are trying to solve. Today's question comes from a student in my Spring Boot Introduction Course and has to do with using something other than the default. ",
+      "date_modified": "2017-05-10T13:00:06.000Z",
+      "date_published": "2017-05-10T13:00:06.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/12/6-courses-itunes-u",
+      "title": "6 Courses on iTunes U that can upgrade your Software Development Career",
+      "summary": "When I hear people talk about taking online courses I hear the usual marketplaces mentioned. While these are great places to learn I find it a little odd that iTunes U is usually a place that people forget about. If you weren't aware iTunes U is the world's largest catalog of free education content. ",
+      "date_modified": "2017-05-12T12:00:52.000Z",
+      "date_published": "2017-05-12T12:00:52.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/15/getting-started-spring-boot-actuator",
+      "title": "Getting Started with the Spring Boot Actuator",
+      "summary": "Spring Boot includes a number of additional features to help you monitor and manage your application when it’s pushed to production. You can choose to manage and monitor your application using HTTP endpoints, with JMX or even by a remote shell (SSH or Telnet). Auditing, health and metrics gathering can be automatically applied to your application. In this article, we will take a look at how to include the actuator in your next project and what endpoints are available. ",
+      "date_modified": "2017-05-15T12:00:22.000Z",
+      "date_published": "2017-05-15T12:00:22.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/17/spring-component-vs-bean",
+      "title": "Spring Beans @Component vs @Bean",
+      "summary": "In this article, you will learn what a Spring Bean is and what the annotations @Bean vs @Component are used for, and how to use them. Before we dive into how each of these annotations is used it’s important to understand what a Spring Bean is. If you haven’t had a chance to check out my Spring Boot Crash Course I cover this topic in more!",
+      "date_modified": "2017-05-17T13:00:06.000Z",
+      "date_published": "2017-05-17T13:00:06.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/19/spring-boot-2-first-release",
+      "title": "The first release of Spring Boot 2.0 is now available!",
+      "summary": "I have had a lot of fun watching the Spring Boot project grow into an amazing product over the last few years. A month ago I looked at the Spring 2.0 Roadmap and today we get to start walking down that road. It is so exciting to see all of the new features coming in both Spring Framework 5 and Spring Boot 2.0. In this article, we are going to look at the first milestone release of Spring Boot 2.0. We will talk about how to update your current projects, start a new one and a brief look at the new features. ",
+      "date_modified": "2017-05-19T14:15:39.000Z",
+      "date_published": "2017-05-19T14:15:39.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/22/checking-upgrading-jhipster-version",
+      "title": "How to check your version and upgrade JHipster",
+      "summary": "The last few months of my life have been full of Angular + Spring Boot projects and I have been having a blast. When you start building these types of applications you need to start looking into JHipster.  If you're new to JHipster I wrote up a tutorial titled \"What is JHipster & Why you need to start using it today\". In this short post, we are going to look at how to tell what version of JHipster you're running and how to tell if there are updates available. If there are updates available you will wanna upgrade to the current version. This is not a tutorial on upgrading a current application from one version to another as there is a little more work involved in that.",
+      "date_modified": "2017-05-22T13:00:26.000Z",
+      "date_published": "2017-05-22T13:00:26.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/24/contributing-groovy-website",
+      "title": "How you can contribute to the Groovy Website",
+      "summary": "& Anyone who knows me knows that I am a huge fan of The Groovy Programming Language. So much so that I did my part to spread the good word about Groovy by creating a course titled \"The Complete Apache Groovy Developer Course\". I recently had the opportunity to contribute to the Groovy website. In this article, I will tell you all about what I did and how you can contribute as well. ",
+      "date_modified": "2017-05-24T12:12:01.000Z",
+      "date_published": "2017-05-24T12:12:01.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/26/so-you-want-to-create-an-online-course",
+      "title": "So you want to create an online course?",
+      "summary": "I recently wrote this article on Medium and thought I would share it here with this audience today. I know there are a lot of Software Developers out there that want to get into creating courses and if that's you I think you're really going to enjoy this article. ",
+      "date_modified": "2017-05-26T16:34:08.000Z",
+      "date_published": "2017-05-26T16:34:08.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/05/31/spring-boot-1-question-students-asking-right-now",
+      "title": "Spring Boot: The #1 question my students are asking right now",
+      "summary": "Today's Question & Answer came in from a student in my Spring Boot Introduction course and it is one that I get a lot. This tells me that I probably need to address this in the course but it's also an opportunity for me to share this with you. The question is:  \"I created a new application from scratch using the Web, Spring Data JPA & H2 dependencies. If I create an entity and then start the application up I don't see the tables created in the H2 database for me. What is going wrong?\"",
+      "date_modified": "2017-05-31T12:48:35.000Z",
+      "date_published": "2017-05-31T12:48:35.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/05/getting-started-angular-cli",
+      "title": "Getting Started with the Angular CLI",
+      "summary": "I have worked on a variety of Angular applications over the last few months and it truly has been a blast. I know a lot of my readers out there are Java + Spring developers and I want to make sure that I make this very clear in this post and the ones that follow. If you played around with Angular 1.xx and didn't really enjoy writing those applications you need to come back for another look. Writing angular 2/4 applications with Typescript is a familiar setting for Java Developers. I really do love working with the Angular framework and in today's article, I am going to help you get started quickly by using the Angular CLI.",
+      "date_modified": "2017-06-05T14:34:50.000Z",
+      "date_published": "2017-06-05T14:34:50.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/07/angular-forms-clear-input-field",
+      "title": "Angular Forms: How to clear an input field",
+      "summary": "Recently I was working on an Angular Forms application and I needed the ability to clear an input field.",
+      "date_modified": "2017-06-07T13:50:47.000Z",
+      "date_published": "2017-06-07T13:50:47.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/12/bootstrapping-angular-application",
+      "title": "Bootstrapping your Angular Application",
+      "summary": "I recently wrote an article about how to get started with the Angular CLI. This is an awesome productivity tool when it comes to getting started with Angular. With it we can quickly create, build and run our applications. This is really helpful but it also adds a little layer of magic to your application. If you always use the CLI but don't take the time to appreciate what is happening behind the scenes you won't understand how to fix problems when they come up. In this article, we are going to look at how Angular boots up your application. ",
+      "date_modified": "2017-06-12T15:40:51.000Z",
+      "date_published": "2017-06-12T15:40:51.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/14/spring-boot-defining-requestmapping-handler-methods",
+      "title": "Spring Boot Defining @RequestMapping handler methods",
+      "summary": "In this article, we are going to take a look at what happens when you define a method that is annotated with @RequestMapping. @RequestMapping is one of the most widely used Spring MVC annotation. RequestMapping annotation is used to map web requests onto specific handler classes and/or handler methods. If you have done any work with Spring MVC you have undoubtedly come across this annotation before. The reason we are talking about this is that I had a student ask me the following question.",
+      "date_modified": "2017-06-14T12:36:35.000Z",
+      "date_published": "2017-06-14T12:36:35.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/16/migrating-grails-2-x-applications-grails-3-x",
+      "title": "Migrating Grails 2.x Applications to Grails 3.x",
+      "summary": "At we work we have a number of huge applications running on Grails 2. When we first heard about the Grails 3 release we couldn't wait to upgrade our applications and then we realized we couldn't. About a year ago our team started to do some investigation into what it would take to upgrade all of our applications. What we quickly found out is that our applications weren't the problem, it was all of the plugins. In this article, we are going to walk through the problems that faced us and I am proud to say that those problems no longer exist today. We are in the middle of upgrading all of our applications at work and I will let you know how we are doing it. ",
+      "date_modified": "2017-06-16T12:53:25.000Z",
+      "date_published": "2017-06-16T12:53:25.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/19/spring-boot-2-0-m2-now-available",
+      "title": "Spring Boot 2.0 M2 Now Available",
+      "summary": "A few weeks ago we got our first look at the next major version of Spring Boot. We talked about all kinds of exciting things such as a Java 8 baseline, Spring Framework 5 support and the new Gradle plugin.  In this article, we take a quick look at the next iteration of Spring Boot 2.0, milestone 2. ",
+      "date_modified": "2017-06-19T12:30:53.000Z",
+      "date_published": "2017-06-19T12:30:53.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/21/spring-boot-properties-setting-locale",
+      "title": "Spring Boot Properties: Setting the locale",
+      "summary": "In today's article, we are going to look at a question from a student in my Spring Boot Introduction course. This question has to do with Internationalization and more specifically how to set the locale in the properties file of a Spring Boot application. This question comes in from Mykhaylo. ",
+      "date_modified": "2017-06-21T12:19:09.000Z",
+      "date_published": "2017-06-21T12:19:09.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/23/building-angular-spring-boot",
+      "title": "Building your Angular Application for Spring Boot",
+      "summary": "I have been working on a ton of different Angular projects lately and some of them are going to be included in my Angular 4 Java Developers Course. There might be times when you have one team working on the front end (Angular) and another working on the back end. There are certainly times when it makes sense to separate the tasks for these applications but there are also times when you as a developer wear many hats. Today we are going talk about the scenario where you are working on both the Angular & Spring Boot application side by side. ",
+      "date_modified": "2017-06-23T12:00:27.000Z",
+      "date_published": "2017-06-23T12:00:27.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/26/spring-boot-configuration-using-yaml",
+      "title": "Spring Boot Configuration using YAML",
+      "summary": "In this tutorial, we are going to look at a question from a student in my Spring Boot Introduction course. This question had to do with using a YAML file for configuration and the best way about how to inject a single property for multiple environments.  Let's take a look at the question and then we will talk through the solution. ",
+      "date_modified": "2017-06-26T13:00:06.000Z",
+      "date_published": "2017-06-26T13:00:06.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/28/deploying-war-application-server-spring-boot",
+      "title": "Deploying a WAR to an application server in Spring Boot",
+      "summary": "In this tutorial, we are taking a look at a student's question from my Spring Boot Introduction Course. We might not realize it but when we start a new project we are selecting how we want to package this application when we ready to go live. I recently received the following question from a student: ",
+      "date_modified": "2017-06-28T13:14:15.000Z",
+      "date_published": "2017-06-28T13:14:15.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/06/30/9-presentations-can-watch-right-now-learn-java-9",
+      "title": "9 Presentations you can watch right now to learn about Java 9",
+      "summary": "In this article, I am going to give you 9 presentations that can you help learn all about Java 9.",
+      "date_modified": "2017-06-30T12:00:48.000Z",
+      "date_published": "2017-06-30T12:00:48.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/07/03/multiple-request-mappings-spring-boot",
+      "title": "Multiple Request Mappings in Spring Boot",
+      "summary": "In this tutorial, we are taking a look at a student's question from my Spring Boot Introduction Course. The question was related to building out Spring Controllers and how to define multiple request mappings for a single method.",
+      "date_modified": "2017-07-03T12:30:50.000Z",
+      "date_published": "2017-07-03T12:30:50.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/07/05/read-json-data-spring-boot-write-database",
+      "title": "How to read JSON data in Spring Boot and write to a database",
+      "summary": "In this tutorial, we are taking a look at a student's question from my Spring Boot Introduction Course. If you have a question you would like me to answer please feel free to reach out and ask me. The question I am answering today is:",
+      "date_modified": "2017-07-05T16:00:27.000Z",
+      "date_published": "2017-07-05T16:00:27.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/07/24/spring-boot-application-failed-start",
+      "title": "Spring Boot Application Failed To Start",
+      "summary": "Errors are a part of the development lifecycle and there is no way getting around them. I know we all like to think we are top notch coders and that we are error prone but I can assure you that isn't the case. When errors come up it is nice to have as much information at our disposal as possible. We don't have time to search the web for hours of cryptic stack messages to find our solution. In this article, I am going to show you an error you might come across and how Spring Boot 1.4 has made it a little bit easier to decipher error messages. ",
+      "date_modified": "2017-07-24T13:55:33.000Z",
+      "date_published": "2017-07-24T13:55:33.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/07/26/use-hikaricp-next-spring-boot-project",
+      "title": "How to use HikariCP in your next Spring Boot project",
+      "summary": "Performance is something we are all trying to improve on when it comes to our applications. It turns out that there is a very reliable, high performance JDBC connection pool out there that we can start using in our Spring Boot applications today. In this article, we are going to take a look at HikariCP, the CP standing for a connection pool. HikariCP is a “zero-overhead” production-quality connection pool.",
+      "date_modified": "2017-07-26T12:16:50.000Z",
+      "date_published": "2017-07-26T12:16:50.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/07/31/spring-data-aggregate-functions-repository",
+      "title": "Spring Data Aggregate Functions in a repository",
+      "summary": "In this tutorial, we are taking a look at a student's question from my Spring Boot Introduction Course.",
+      "date_modified": "2017-07-31T12:48:35.000Z",
+      "date_published": "2017-07-31T12:48:35.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/08/02/kill-java-process-macos-sierra-using-activity-monitor",
+      "title": "How to kill Java process on mac OS Sierra using Activity Monitor",
+      "summary": "Last week I wrote an article on the improvements in Spring Boot 1.4 of startup errors. Specifically, we saw that we got a really informative error message when we try and run an application and port 8080 is already in use.  I received a question from a reader that went like this  \"I get the port 8080 is already in use error from time to time and I am not sure how to fix it, what can I do?\"  This is actually pretty easy to fix and happens to all of us. In this short article, I will show you how to do it on macOS and link to another article I wrote on how to do this on Windows. ",
+      "date_modified": "2017-08-02T12:13:38.000Z",
+      "date_published": "2017-08-02T12:13:38.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/08/04/3-youtube-channels-java-developers",
+      "title": "3 YouTube Channels for Java Developers",
+      "summary": "I think if I was given the choice to only keep a single website around I would have to go with YouTube. I love it for both entertainment and education and I love creating content on my channel. I am going to share with you 3 YouTube channels I think you should subscribe to. The reason I chose these 3 is that they have all put out some really great content lately. ",
+      "date_modified": "2017-08-04T17:14:00.000Z",
+      "date_published": "2017-08-04T17:14:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/08/16/multiple-dependencies-spring-cli",
+      "title": "How to add multiple dependencies with the Spring CLI",
+      "summary": "In this tutorial, we are taking a look at a student's question from my Spring Boot Introduction Course. This question has to do with the Spring CLI which is a great tool that allows you to quickly prototype with Spring. ",
+      "date_modified": "2017-08-16T12:30:40.000Z",
+      "date_published": "2017-08-16T12:30:40.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/08/28/using-jhipster-development-mode",
+      "title": "Using JHipster in Development mode",
+      "summary": "I have been working really hard lately to wrap up my latest course on JHipster. In one of the exercises, I have the students create their own application. In this application, one of the requirements is to make UI changes. When working with Angular you have probably come to expect to see those changes automatically reflected in the browser. In this tutorial, we will look at how to work with JHipster in Development. ",
+      "date_modified": "2017-08-28T13:30:30.000Z",
+      "date_published": "2017-08-28T13:30:30.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/08/30/groovy-happens-assign-biginteger-integer",
+      "title": "Groovy: What happens when you assign a BigInteger to an Integer",
+      "summary": "This question came in from a student in my Apache Groovy Development Course. It was actually quite interesting because it tripped me up at first before I understand what was going on behind the scenes. ",
+      "date_modified": "2017-08-30T11:39:40.000Z",
+      "date_published": "2017-08-30T11:39:40.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/09/06/upgrade-new-angular-command-line-interface-cli-1-3-release",
+      "title": "How to upgrade to the new Angular Command Line Interface (CLI) 1.3 release",
+      "summary": "Angular CLI recently released its next major version, 1.3 (Hopper). There are some pretty great features in this release and I can't wait to talk about a few of them here.  In this article, we are going to discuss how to check what version of the CLI you are running, how to upgrade and what new features 1.3 is giving us.",
+      "date_modified": "2017-09-06T13:07:30.000Z",
+      "date_published": "2017-09-06T13:07:30.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/09/11/monolithic-vs-microservices",
+      "title": "When to use Microservices over Monolithic Architecture",
+      "summary": "I am currently working on wrapping up a new section on MicroServices for my new course on JHipster. We could easily create a whole course around MicroServices alone so I am trying to keep this to more of an introduction. I think one of the questions I hear most is \"When should I use a MicroServices architecture in place of a Monolithic application?\". In this article, we will review what both of these are as well as give some recommendations on when to use Monolithic and when to use MicrosServices. ",
+      "date_modified": "2017-09-11T12:30:19.000Z",
+      "date_published": "2017-09-11T12:30:19.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/09/22/get-hot-java-9",
+      "title": "Get it while it's hot. Java 9 is out!",
+      "summary": "After a few delays, Java 9 has finally been released. This is the first major release of Java since March 2014. Java 9 is headlined by Jigsaw which is Java's new modularity system. This is a huge change to how we will write Java programs going forward but there are also a lot of other great features being released in 9. In this article, we will talk briefly about some of the highlights in Java 9.",
+      "date_modified": "2017-09-22T12:21:00.000Z",
+      "date_published": "2017-09-22T12:21:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/10/04/compile-groovy-java-gradle-build",
+      "title": "How to compile Groovy before Java in a Gradle Build",
+      "summary": "I had an interesting problem come up at work last week and I would like to share it with you today. A coworker was having an issue with a Gradle build. Whenever he tried to compile the project it threw an error saying it couldn't find the Groovy class he was trying to call from Java.",
+      "date_modified": "2017-10-04T12:32:40.000Z",
+      "date_published": "2017-10-04T12:32:40.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/11/08/angular-4-java-developers-course-now-live",
+      "title": "Angular 4 Java Developers Course is now Live!",
+      "summary": "I'm so excited to finally announce the release of my new course with John Thompson, Angular 4 Java Developers! In this course, you will learn how to build applications using some of the hottest technologies in the industry today, including Spring Boot and Angular. These are two of our favorite technologies to work with right now, it really makes developing applications a breeze.",
+      "date_modified": "2017-11-08T21:15:32.000Z",
+      "date_published": "2017-11-08T21:15:32.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/12/08/getting-started-with-java",
+      "title": "Getting Started with Java course",
+      "summary": "A few months ago I picked up a brand new 15\" MacBook Pro. I thought to myself this is a perfect time to show others how I set up my local development environment for Java. With a fresh machine, this would be a lot easier to take students from step 1 to writing Java applications.",
+      "date_modified": "2017-12-08T14:00:23.000Z",
+      "date_published": "2017-12-08T14:00:23.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2017/12/29/my-2017-year-in-review",
+      "title": "My 2017 Year in Review",
+      "summary": "It seems like we say this every year, but can you believe the year is over already? 2017 is going to go down as one of the more memorable years of my life. I thought I would take this time to give you a little \"year in review\" before I share my 2018 goals. ",
+      "date_modified": "2017-12-29T14:14:08.000Z",
+      "date_published": "2017-12-29T14:14:08.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/01/01/my-2018-goals",
+      "title": "Happy New Year!!! My 2018 Goals",
+      "summary": "Another year has come and gone and after spending some time reflecting on 2017, it's time to start looking forward to 2018.",
+      "date_modified": "2018-01-01T13:50:40.000Z",
+      "date_published": "2018-01-01T13:50:40.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/03/01/what-is-new-spring-boot-2",
+      "title": "What's new in Spring Boot 2",
+      "summary": "Spring Boot 2 was just released and I am so pumped to see it in action in the coming months. This release is the culmination of 17 months of work and over 6800 commits by 215 different individuals. There are some really great features to talk about so let's talk about What's new in Spring Boot 2. In this article we are going to look at:",
+      "date_modified": "2018-03-01T11:47:52.000Z",
+      "date_published": "2018-03-01T11:47:52.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/04/25/java-development-2018",
+      "title": "What you should learn as a Java Developer in 2018",
+      "summary": "In this tutorial, we are going to look at what you should learn as a Java Developer in 2018.",
+      "date_modified": "2018-04-25T10:39:22.000Z",
+      "date_published": "2018-04-25T10:39:22.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/09/07/i-am-joining-tech-elevator",
+      "title": "I am joining Tech Elevator",
+      "summary": "I am happy to announce that I am joining Tech Elevator. I am beyond excited to join this amazing company and I can't wait to tell you a little bit more about them and what they do.",
+      "date_modified": "2018-09-07T05:00:58.000Z",
+      "date_published": "2018-09-07T05:00:58.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/11/05/cleveland-women-in-tech-presentation",
+      "title": "Cleveland Women in Tech Presentation",
+      "summary": "Today I have the honor of representing Tech Elevator and presenting at the very 1st getWITit conference in Cleveland. This conference has been a huge success in Columbus and it is just getting started in Cleveland. ",
+      "date_modified": "2018-11-05T11:50:29.000Z",
+      "date_published": "2018-11-05T11:50:29.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/11/06/cleveland-women-in-tech-conference-recap",
+      "title": "Cleveland Women in Tech Conference Recap",
+      "summary": "This is going to be just a quick recap of the inaugural Cleveland Women in Tech Conference. I think I will have a little bit of a unique perspective to share on this as I am a presenter at this conference and one of a handful of men in attendance. ",
+      "date_modified": "2018-11-06T16:59:51.000Z",
+      "date_published": "2018-11-06T16:59:51.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/11/20/new-course-getting-started-with-spring-boot-2",
+      "title": "New Course: Getting Started with Spring Boot 2",
+      "summary": "I am so excited to announce that my new course is live! This course was a long time in the making and I am just so thrilled that I get to share it with all of you because I believe it is my best one yet!",
+      "date_modified": "2018-11-20T17:39:53.000Z",
+      "date_published": "2018-11-20T17:39:53.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/12/21/macbook-pro-setup-my-setup-with-detailed-instructions",
+      "title": "MacBook Pro Setup: My setup with detailed instructions",
+      "summary": "I thought I would take some time and document what I do when I get a new machine. This is going to walk through some preferences I configure, applications I install and settings I use for different programs. I am always curious to see how other software developers are setting up their development machines so I figured it would be a good opportunity to share mine.",
+      "date_modified": "2018-12-21T19:17:22.000Z",
+      "date_published": "2018-12-21T19:17:22.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2018/12/24/my-2018-year-in-review",
+      "title": "My 2018 Year in Review",
+      "summary": "It is that time again friends. Time to find out what goals I fell short of and which ones I made good on. This is my 2018 year in review and in a couple weeks I will posting my goals for 2019.",
+      "date_modified": "2018-12-24T13:52:12.000Z",
+      "date_published": "2018-12-24T13:52:12.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/01/01/happy-new-year-my-2019-goals",
+      "title": "Happy New Year! My 2019 Goals",
+      "summary": "It is hard to believe that another year has come and gone. After I spent some time last week reflecting on 2018 it's time we look ahead to the new year and set some new goals.",
+      "date_modified": "2019-01-01T13:38:10.000Z",
+      "date_published": "2019-01-01T13:38:10.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/01/31/hello-gridsome",
+      "title": "Hello, Gridsome!",
+      "summary": "I would like to welcome you to a new side project of mine. I thought I would take this opportunity to tell you about the motivation behind creating this website and the technologies that power it.",
+      "date_modified": "2019-01-31T10:00:00.000Z",
+      "date_published": "2019-01-31T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/02/10/creating-your-first-npm-package",
+      "title": "Creating your first npm package",
+      "summary": "This weekend I started working on my first ever npm package. I can't believe for how long I have been writing code that I never bothered to create my own npm package but here we are. I built the site you're reading this article on using Gridsome and markdown. In the markdown files I wanted an easy way to insert a twitter status nad embed the tweet. In fact here is a tweet just to prove its working.",
+      "date_modified": "2019-02-10T11:00:00.000Z",
+      "date_published": "2019-02-10T11:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/02/13/html-template-tag",
+      "title": "HTML Template Tag in Vanilla JavaScript and Vue",
+      "summary": "For the past few months, I have been writing a ton of documentation, tutorials, and exercises around VueJS and Vanilla JavaScript. Just for some context, I am Curriculum Developer at Tech Elevator, a coding bootcamp that teaches students how to code in 14 weeks. With that in mind, all of the content is geared towards beginners but made for everyone.",
+      "date_modified": "2019-02-13T22:30:00.000Z",
+      "date_published": "2019-02-13T22:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/02/18/twitter-cards-meta-tags",
+      "title": "How to add Twitter Card Meta Tags to your Blog",
+      "summary": "For those of you who haven't been reading my blog lately I am in the middle of converting my website from WordPress over to a static site generator called Gridsome that is built on VueJS. There are a lot of things that I took for granted when using a proven blogging platform like WordPress. In WordPress when I created a new blog post and then shared it on Twitter I got this nice display of my blog post as apposed to just a link.",
+      "date_modified": "2019-02-18T22:00:00.000Z",
+      "date_published": "2019-02-18T22:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/02/21/node-recursive-directories",
+      "title": "Creating multiple directories in node",
+      "summary": "This is going to be a quick tutorial but I think it's one that I want to share. I am in the middle of migrating close to 1,000 blog posts from WordPress to Gridsome, a static site generator.",
+      "date_modified": "2019-02-20T08:00:00.000Z",
+      "date_published": "2019-02-20T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/03/04/vue-event-arguments",
+      "title": "Vue Event Handler Arguments",
+      "summary": "A fundamental skill in learning JavaScript and Vue is the ability to listen for events and handle them. Events are notifications to code that something interesting has taken place like a user clicking on a button or pressing the enter key. Vue makes event handling incredibly easy and gives us some great features when it comes to event modifiers.",
+      "date_modified": "2019-03-04T10:00:00.000Z",
+      "date_published": "2019-03-04T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/03/07/spring-initializr-fresh-look",
+      "title": "Spring Initializr's Fresh New Look",
+      "summary": "The Spring Team just announced that the Spring Initializr has been updated with a brand new UI and it is now available at http://start.spring.io. You can see a screen shot of it below but I have say my first impressions were all positive.",
+      "date_modified": "2019-03-07T17:00:00.000Z",
+      "date_published": "2019-03-07T17:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/03/14/how-to-find-the-max-id-in-an-array-of-objects-in-java-script",
+      "title": "How to find the max id in an array of objects in JavaScript",
+      "summary": "I was recently putting together a tutorial for some students and I came across an issue that I am sure we have all come across at one time or another. I had this array of objects and in each object I had an id. I wanted a quick and efficient way to look at all of the ids and find the max id.",
+      "date_modified": "2019-03-14T10:59:53.416Z",
+      "date_published": "2019-03-14T10:59:53.416Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/09/adding-twitter-cards-to-gridsome",
+      "title": "Adding Twitter Cards to Gridsome",
+      "summary": "In a previous article, I showed you how you could add Twitter Cards to your blog. If you haven't gone through that post yet I would suggest doing so before reading this one.",
+      "date_modified": "2019-04-09T19:21:53.368Z",
+      "date_published": "2019-04-09T19:21:53.368Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/11/dont-call-it-a-comback",
+      "title": "Personal Blogs: Don't Call it a comeback!",
+      "summary": "I'm not sure if you have noticed or not but the personal blog is making a comeback. There aren't just more people blogging these days, there are more people building their own blogs which are really great to see. In this article, I am to give you some background on why I started blogging which I believe are good reasons for you to start blogging if you haven't already.",
+      "date_modified": "2019-04-11T11:38:39.435Z",
+      "date_published": "2019-04-11T11:38:39.435Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/19/npm-scripts-parallel",
+      "title": "How to run multiple npm scripts in parallel",
+      "summary": "I was working on an exercise for our students and In the process I learned something new. When our students finish their exercises they are asked to run some tests to validate that their solution works. We also use these tests as a way to grade certain exercises.",
+      "date_modified": "2019-04-19T16:51:56.537Z",
+      "date_published": "2019-04-19T16:51:56.537Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/23/gridsome-blog-post-generator",
+      "title": "Gridsome Blog Post Generator",
+      "summary": "If you're using something like Gatsby or Gridsome as your blogging platform there is no UI to create a new blog post. The process usually starts with creating a directory or series of directories depending on your post format and then creating a new markdown file.",
+      "date_modified": "2019-04-23T19:28:51.186Z",
+      "date_published": "2019-04-23T19:28:51.186Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/25/my-new-blog-post-workflow",
+      "title": "My new blog post workflow",
+      "summary": "Well, I have been blogging for a few months now on my new website and I thought I would share how I write all of my blog posts. I am really happy with my writing process and it how it allows me to write from any computer and quickly go from idea to live post. In this article, I will talk a little bit about how I used to write articles and what I was looking for in a new workflow.",
+      "date_modified": "2019-04-25T13:53:35.054Z",
+      "date_published": "2019-04-25T13:53:35.054Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/04/30/up-and-running-with-vue",
+      "title": "Everything you need to get up and running with VueJS",
+      "summary": "At this point, you have most likely heard about the JavaScript framework called Vue. If it's been on your list as something to try out but you weren't quite sure where to start I am here to help. In this article, I am going to tell you why I love Vue and give you 4 different ways you can write your first application.",
+      "date_modified": "2019-04-30T19:38:42.927Z",
+      "date_published": "2019-04-30T19:38:42.927Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/02/gridsome-codesandbox-plugin",
+      "title": "How I created a CodeSandbox plugin for Gridsome",
+      "summary": "I have been a big fan of what CodeSandbox has been doing for a while now. Lately, I have been using it a lot more and I am finding it to be one of the tools that I can't live without. In this article, I am going to introduce you to CodeSandbox and tell you a little bit about why I love it. Then I will walk you through the plugin I created so that I can embed a CodeSandbox in Markdown so that I could display them on my Gridsome powered blog.",
+      "date_modified": "2019-05-02T15:30:43.839Z",
+      "date_published": "2019-05-02T15:30:43.839Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/07/codesandbox-custom-theme",
+      "title": "How to customize the VSCode Theme in CodeSandbox",
+      "summary": "This is going to be a short tutorial today but it's a goodie. In my last article, I talked about what CodeSandbox is and why I love it so much. In this article, I am going to give you a quick tip on how to customize the VSCode Theme in CodeSandbox.",
+      "date_modified": "2019-05-08T01:56:43.680Z",
+      "date_published": "2019-05-08T01:56:43.680Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/10/what-you-can-learn-from-live-coders",
+      "title": "What you can learn from live coders",
+      "summary": "2019 seems to be the year of the live coder. In this article I am going to tell you what you can learn from live coders. When I was younger I used to love playing video games. I actually do still enjoy them now but if I have free time these days I would much rather spend it working on code. 🤓",
+      "date_modified": "2019-05-10T18:42:50.066Z",
+      "date_published": "2019-05-10T18:42:50.066Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/15/run-vue-visual-studio-code",
+      "title": "3 ways to run VueJS applications from Visual Studio Code",
+      "summary": "In this tutorial, I am going to show you 3 ways to run your VueJS applications from Visual Studio Code. This will also work for any NPM project that has a package.json but I am going to focus on Vue for this article. I have found that developers who are new to both NPM & Vue have some difficulty getting started so hopefully this will help.",
+      "date_modified": "2019-05-15T14:19:36.459Z",
+      "date_published": "2019-05-15T14:19:36.459Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/17/vue-cli-error",
+      "title": "Vue CLI ValidationError: webpack Dev Server Invalid Options",
+      "summary": "This morning I ran into an issue creating a new Vue project using the Vue CLI. The strange thing about this is that I just created a new project yesterday and it ran fine. I did some digging around and this seems to be affecting a lot of users so I figured I would throw together a quick post about.",
+      "date_modified": "2019-05-17T15:25:36.871Z",
+      "date_published": "2019-05-17T15:25:36.871Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/05/31/escape-backtick-markdown",
+      "title": "How to escape a backtick within a code block in Markdown",
+      "summary": "This is going to be a pretty short tutorial but I was so excited that I had to share it with all of you. It isn't often but there are times where I need to share a markdown code block in a blog post or in a Github comment and I never know how to do it. In this article, I am going to show you how to escape a backtick ` within a code block in Markdown",
+      "date_modified": "2019-05-31T18:32:41.710Z",
+      "date_published": "2019-05-31T18:32:41.710Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/06/05/triggering-events-router-vue",
+      "title": "Triggering events from Vue Router views",
+      "summary": "Last week I was working on tightening up our documentation on Vue Router and I was presented with an interesting challenge. In a short period of time our students are able to build some really cool applications using Vue. We teach them how components communicate with each other and introduce them to Vue Router.",
+      "date_modified": "2019-06-05T20:13:17.445Z",
+      "date_published": "2019-06-05T20:13:17.445Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/06/13/vuepress-cookies",
+      "title": "How to use cookies in VuePress",
+      "summary": "Lately, I have been working on a large migration of documentation from Gitbook to VuePress. If you're curious about how to get started with VuePress or the process I used to determine if it would work for us please reach out to me and let me know.",
+      "date_modified": "2019-06-13T10:27:46.175Z",
+      "date_published": "2019-06-13T10:27:46.175Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/07/23/website-new-features-improvements",
+      "title": "New Features and Improvements to my website",
+      "summary": "I launched my new personal website earlier this year and I am really happy with how it's been working out. I believe in the \"ship it early and often\" philosophy so my first priority is to get something out there and then improve on it later. Well, it's later now, and I have built a list of features and improvements that I wanted to add to this website. In this article, I will tell you what I have been working on and why I made the few changes that I did.",
+      "date_modified": "2019-07-23T11:20:30.619Z",
+      "date_published": "2019-07-23T11:20:30.619Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/08/08/css-grid-generator",
+      "title": "Learn how to use CSS Grid with a FREE tool CSS Grid Generator",
+      "summary": "As someone who has been developing web applications for almost 20 years now, I have seen it all. I started in FrontPage, moved to Dreamweaver, nested tables inside of tables and learned how to float and clear fix everything.",
+      "date_modified": "2019-08-08T18:13:57.456Z",
+      "date_published": "2019-08-08T18:13:57.456Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/09/30/unit-testing-vue-part-01",
+      "title": "A beginner's guide to Unit Testing in Vue: Part 1",
+      "summary": "If you're subscribed to my newsletter than you know I have been working on a series of articles for my friends over at Vue Mastery for a little while now. The series is titled \"A beginner's guide: Unit Testing in Vue\" and has been broken into 3 parts. I am really excited to announce that the first article in this series is now live.",
+      "date_modified": "2019-10-01T00:31:11.329Z",
+      "date_published": "2019-10-01T00:31:11.329Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/10/15/unit-testing-vue-part-02",
+      "title": "A Beginner's Guide to Unit Testing in Vue: Part 2",
+      "summary": "If you're interested in getting started with Unit Testing in Vue I have something that is really going to help you out. I have been working on a 3 part series for my friends over at VueMastery In part 1 of the series we talked about what to test and more importantly what not to test.",
+      "date_modified": "2019-10-15T12:33:53.592Z",
+      "date_published": "2019-10-15T12:33:53.592Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/10/29/unit-testing-vue-part-03",
+      "title": "A Beginner's Guide to Unit Testing in Vue: Part 3",
+      "summary": "This is the third and final article in the series I did for Vue Mastery. You can read all three of these articles over on Vue Mastery:",
+      "date_modified": "2019-10-29T15:30:00.000Z",
+      "date_published": "2019-10-29T15:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/11/21/spring-boot-visual-studio-code",
+      "title": "Spring Boot in Visual Studio Code",
+      "summary": "I feel very lucky that I get to work with so many different programming languages & frameworks on a day to day basis. This wouldn't be as much fun if I had to bounce around using different IDE's, editors and tools.",
+      "date_modified": "2019-11-21T11:28:07.266Z",
+      "date_published": "2019-11-21T11:28:07.266Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2019/12/19/up-and-running-with-vuejs",
+      "title": "New Course: Up & Running with Vue.js",
+      "summary": "This is a course that I have wanted to make for a long time now and I am happy to announce that it is finally here. If you follow me at all you know that I have been a big fan of Vue.JS for awhile now. I use it personally on this blog, we teach it at Tech Elevator and now I have my own course that teaches the very basics of Vue.",
+      "date_modified": "2019-12-19T15:30:00.000Z",
+      "date_published": "2019-12-19T15:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/01/09/codemash-2020",
+      "title": "Vue3: Smaller, Faster & Stronger. CodeMash 2020",
+      "date_modified": "2020-01-09T09:00:00.000Z",
+      "date_published": "2020-01-09T09:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/01/13/codemash-2020-recap",
+      "title": "CodeMash 2020 Recap",
+      "summary": "I'm back home after attending and speaking at my first CodeMash and I would like to tell you all about it. The highlights for me were the awesome venue, being able to take my family with me and getting to spend some time with my friend Todd who I haven't seen in awhile.",
+      "date_modified": "2020-01-13T14:30:00.000Z",
+      "date_published": "2020-01-13T14:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/01/17/vue-3-alpha-cli-plugin",
+      "title": "Start using Vue 3 in a new project right now",
+      "summary": "So you've heard of Vue 3 and you want to start playing around with it but not sure where to start. Did you know that you can add Vue 3 to a new project using the Vue CLI? In this tutorial, I will show you how to create a new project using the Vue CLI and then using a new plugin, add Vue 3 Alpha to your project.",
+      "date_modified": "2020-01-17T13:58:29.936Z",
+      "date_published": "2020-01-17T13:58:29.936Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/02/12/vue3-ref-vs-reactive",
+      "title": "Vue 3 Composition API: Ref vs Reactive",
+      "summary": "At the time of writing this article, we are getting closer and closer to the release of Vue 3. I think what I am most excited about is to see how other developers embrace it and use it. While I have had a chance to play with it over the last few months I know that isn't the case for everyone.",
+      "date_modified": "2020-02-12T16:27:46.472Z",
+      "date_published": "2020-02-12T16:27:46.472Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/03/09/spring-unit-vs-integration-test",
+      "title": "Spring Boot Testing Basics: How to Unit Test & Integration Test REST Controllers",
+      "date_modified": "2020-03-09T10:00:00.000Z",
+      "date_published": "2020-03-09T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/05/16/website-redesign-lessons-learned",
+      "title": "Lessons learned from redesigning my website",
+      "summary": "A couple of months ago I decided it was time to update my website. I normally get this feeling every couple of years but this time it was different. I liked the look and feel but there were a list of things that I wanted to improve on.",
+      "date_modified": "2020-05-16T17:24:14.760Z",
+      "date_published": "2020-05-16T17:24:14.760Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/05/29/hello-deno",
+      "title": "Hello, Deno",
+      "summary": "After two years of development, Deno 1.0 was recently released and it has everyone talking. In this article, I want to give you a quick introduction to Deno, how to install it and how to create your first application. Finally, we will take a look at some of the features that make Deno an exciting project to pay attention to.",
+      "date_modified": "2020-05-29T12:00:00.000Z",
+      "date_published": "2020-05-29T12:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/06/03/deno-standard-in-out",
+      "title": "Working with Standard Input and Output in Deno",
+      "summary": "I recently posted a introduction to Deno where I walk through how to get Deno installed and the features I think make it an exciting project. The next step for me was to start building something with Deno.",
+      "date_modified": "2020-06-03T20:00:00.500Z",
+      "date_published": "2020-06-03T20:00:00.500Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/06/04/spring-boot-rest-service",
+      "title": "Spring Boot REST Service: How to build a REST API in Java",
+      "date_modified": "2020-06-04T08:00:00.000Z",
+      "date_published": "2020-06-04T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/07/30/interactive-learning-from-oreilly",
+      "title": "Interactive Learning from Oreilly",
+      "summary": "I'm happy to announce that a few projects I have been working on with O'Reilly Media are now live.\nFirst off I want to thank everyone at O'Reilly for all of their help launching these projects. For me, O'Reilly has long\nbeen the gold standard for technical training materials. Their physical books line my bookshelf and I also have a\nsubscription to the O'Reilly Learning Platform which I highly recommend. When I got\napproached to collaborate with them on a new type of learning platform I was really excited.",
+      "date_modified": "2020-07-30T12:50:24.664Z",
+      "date_published": "2020-07-30T12:50:24.664Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2020/12/16/reassign-standard-in-out",
+      "title": "How to test standard in and out in Java",
+      "summary": "When you have been writing software for as long as I have you see a lot of the same problems over and over and it can be a bit repetitive at times. That is why when I run across a problem I haven't had to solve for before I get pretty excited.",
+      "date_modified": "2020-12-16T15:17:39.619Z",
+      "date_published": "2020-12-16T15:17:39.619Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/01/07/a-look-ahead-to-2021",
+      "title": "New Year, New Opportunities and Goals",
+      "summary": "I think we can all agree that we would like to put 2020 in the rear-view mirror and begin to look forward to the new year. In this post, I am going to share some exciting personal news, what I'm looking forward to learning, and some goals I want to set for myself this year.",
+      "date_modified": "2021-01-07T11:30:00.000Z",
+      "date_published": "2021-01-07T11:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/01/08/network-throttling",
+      "title": "How to force a delay in a web app",
+      "summary": "So you have this amazing loading animation, and you want to test it out but you have a problem. When you're working on your local machine there isn't much latency so you never see your animated art.",
+      "date_modified": "2021-01-08T09:30:00.000Z",
+      "date_published": "2021-01-08T09:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/01/22/full-stack-java",
+      "title": "Full Stack Java development with Spring Boot and VueJS",
+      "summary": "In this tutorial, you will learn how to build a full-stack application that uses Vue for the frontend and Spring Boot for the backend. As always you can find the code associated with this over on Github.",
+      "date_modified": "2021-01-22T08:00:00.000Z",
+      "date_published": "2021-01-22T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/08/30/spring-one-2021",
+      "title": "Spring One 2021 Presentation",
+      "summary": "This year SpringOne takes place September 1-2, 2021, and is free to virtually attend. As much as I want to get back to speaking in person I am just so thankful to have been selected to speak at this conference. I am looking forward to sharing the virtual stage with so many of the best speakers in our community.",
+      "date_modified": "2021-08-30T19:45:43.204Z",
+      "date_published": "2021-08-30T19:45:43.204Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/11/06/github-copilot-java-developers",
+      "title": "GitHub Copilot for Java Develpers",
+      "summary": "Earlier this year GitHub launched Copilot, an AI pair-programmer. With GitHub Copilot, get suggestions for whole lines or entire functions right inside your editor. I'm not sure if it supported Java when it was first launched but at the time of writing this, the technical preview supports Python, JavaScript, TypeScript, Ruby, Java & Go.",
+      "date_modified": "2021-11-08T10:00:00.000Z",
+      "date_published": "2021-11-08T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2021/11/15/macbook-pro-m1-max-review",
+      "title": "14\" MacBook Pro M1 Max Review for developers and content creators",
+      "summary": "I have been using the new MacBook Pro for about a week and wanted to give you my initial thoughts from a developer & content creator perspective. If you're looking for an in-depth review full of Geekbench benchmarks you aren't going to find them here. Instead, I will share with you what I like or don't like about it some day-to-day workflows I am using it for.",
+      "date_modified": "2021-11-15T21:00:00.000Z",
+      "date_published": "2021-11-15T21:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/01/01/happy-new-year-2022",
+      "title": "Happy New Year 2022",
+      "summary": "Happy New Year! I want to take a few minutes and reflect on the year that was 2021 and look ahead to 2022.",
+      "date_modified": "2022-01-01T11:00:00.000Z",
+      "date_published": "2022-01-01T11:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/01/24/im-joining-vmware",
+      "title": "Im Joining VMware",
+      "summary": "I am thrilled to announce that I have joined VMWare as a Spring Developer Advocate. I have so many emotions going through my head right now as I sit down to write this article. The ones that stand out the most to me are excited and proud.",
+      "date_modified": "2022-01-24T08:00:00.000Z",
+      "date_published": "2022-01-24T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/05/11/spring-boot-value-annotation",
+      "title": "Spring Boot @Value Annotation",
+      "summary": "Spring Boot allows you to configure your application through a number of property sources. A property source, simply put, is a source for your configuration such as Java properties files, YAML files, environment variables, command line arguments and more.",
+      "date_modified": "2022-05-11T09:30:00.000Z",
+      "date_published": "2022-05-11T09:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/05/12/spring-data-jpa-pagination",
+      "title": "Spring Data JPA Pagination",
+      "summary": "In this tutorial, you are going to learn how to work with pagination in Spring Data JPA. If you have a few records you can just return all of them from a single API endpoint. In the real world though you will probably have more than a few records. In this case you wouldn’t want to return all of the records to the client for performance reasons.",
+      "date_modified": "2022-05-12T16:00:00.000Z",
+      "date_published": "2022-05-12T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/05/17/spring-for-graphql",
+      "title": "GraphQL Spring Boot - Up and Running with Spring for GraphQL",
+      "summary": "In this tutorial you are going to learn how to get up and running with Spring for GraphQL. At the time of this article being published Spring for GraphQL 1.0 is close to being released. This is a huge milestone and the culmination of a really great collaboration between the Spring team and the GraphQL Java team.",
+      "date_modified": "2022-05-17T16:00:00.000Z",
+      "date_published": "2022-05-17T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/09/09/spring-security-jwt",
+      "title": "Spring Boot JWT - How to Secure your REST APIs with Spring Security and Json Web Tokens",
+      "summary": "If you perform a quick search on how to secure REST APIs in Spring Boot using JSON Web Tokens you will find a lot of the same results. These results contain a method that involves writing a custom filter chain and pulling in a 3rd party library for encoding and decoding JWTs.",
+      "date_modified": "2022-09-06T16:00:00.000Z",
+      "date_published": "2022-09-06T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/09/22/spring-security-cors",
+      "title": "Spring Security CORS: How to configure CORS in Spring Boot & Spring Security",
+      "summary": "Authentication is a vital aspect of most applications, and Spring Boot provides several methods to control access. One of these methods is the use of CORS - a flexible, HTTP header-based mechanism that allows for the specification of authorized cross-domain requests. This article guides you through configuring CORS in Spring Boot at the controller, method, and global levels, as well as managing CORS when adding Spring Security.",
+      "date_modified": "2022-09-22T08:00:00.000Z",
+      "date_published": "2022-09-22T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/09/29/domain-class-converter",
+      "title": "Spring Boot REST API Domain Class Converter",
+      "summary": "In this article, we'll discuss a recent tweet I sent out regarding the Domain Class Converter in Spring Data. The Domain Class Converter can convert any arbitrary input into a domain class managed by a Spring Data Repository (specifically a Crud Repository). We'll go through a tutorial that demonstrates how to use this feature.",
+      "date_modified": "2022-09-29T11:00:00.000Z",
+      "date_published": "2022-09-29T11:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/11/09/hello-aws-lambda-java",
+      "title": "AWS Lambda Java: How to create your first AWS Lambda Function in Java",
+      "summary": "In this tutorial, I'll show you how to create a simple AWS Lambda function using Java. We'll start with a plain Java project, upload it to the AWS console, and test it. Along the way, I'll share some of the pain points I encountered while building serverless functions, and in a later tutorial you will see how you can overcome them using tools like Spring Cloud Function.",
+      "date_modified": "2022-11-09T08:00:00.000Z",
+      "date_published": "2022-11-09T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/11/10/aws-lambda-java-core",
+      "title": "Building AWS Lambda Functions with Java: An Introduction to the AWS Lambda Core Java Library",
+      "summary": "In this tutorial, we are continuing our journey to build AWS Lambda functions in Java. Previously, we looked at the quintessential \"Hello World\" example - how to create our first serverless function using Java. If you missed it, you can find the previous tutorial here.",
+      "date_modified": "2022-11-10T08:00:00.000Z",
+      "date_published": "2022-11-10T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/12/01/spring-security-6",
+      "title": "What's new in Spring Security 6",
+      "summary": "This article discusses the new features of Spring Security 6. If you haven't heard yet, Spring Boot 3.0 has been released, and if you include Spring Security as a dependency, you will now get Spring Security Version 6. In this blog post, we will delve into three important changes in Spring Security 6 and create a new Spring Boot 3 project together.",
+      "date_modified": "2022-12-01T16:00:00.000Z",
+      "date_published": "2022-12-01T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/12/02/aws-lambda-snapstart-spring",
+      "title": "AWS Lambda SnapStart for Spring Developers",
+      "summary": "AWS Lambda SnapStart is a new performance optimization developed by AWS that can significantly improve the startup time for your applications. Currently, it is only available for Java in certain regions, but Java is usually the runtime affected by cold start times. This feature delivers up to 10x faster function startup times for latency-sensitive Java applications at no extra cost and with no or minimal code changes. That's really nice!",
+      "date_modified": "2022-12-02T08:00:00.000Z",
+      "date_published": "2022-12-02T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/12/16/spring-response-entity",
+      "title": "Spring Response Entity -  How to customize the response in Spring Boot",
+      "summary": "Recently, I sent out a tweet that received a lot of attention. My tweet discussed the use of the ResponseEntity class in Spring framework and when to use it in your projects. In this blog post, I'll go through the ResponseEntity class in detail, and show you an example of how to use it in your next application.",
+      "date_modified": "2022-12-16T12:00:00.000Z",
+      "date_published": "2022-12-16T12:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/12/19/spring-proxy-bean-methods",
+      "title": "Spring Boot Configuration proxy bean methods",
+      "summary": "In this blog post, we will explore the configuration classes in Spring and explain how setting a property on the @Configuration annotation of proxyBeanMethods=false can resolve certain issues. We will guide you through creating a few services that depend on a RestTemplate using the @Configuration annotation. Along the way, we will examine a problem and how to address it.",
+      "date_modified": "2022-12-19T10:00:00.000Z",
+      "date_published": "2022-12-19T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2022/12/29/2022-reflections",
+      "title": "2022 Reflections",
+      "summary": "It’s hard to believe that another year has passed but I’m guessing this is something we say at the end of every year. I like to sit down over Christmas break and spend some time reflecting because I believe it's a good reminder of the good and the bad as I began to set some goals for next year.",
+      "date_modified": "2022-12-29T16:00:00.000Z",
+      "date_published": "2022-12-29T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/01/01/happy-new-year",
+      "title": "Happy New Year 2023",
+      "summary": "It’s that time of year again. If you missed my last post I spent some time reflecting on 2022 before setting some goals for the new year. I mentioned this in last year's new year's post but I have 2 small kids at home so I am hesitant to attach the word goal but I will give it a shot.",
+      "date_modified": "2023-01-01T10:00:00.000Z",
+      "date_published": "2023-01-01T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/01/27/jakarta-ee-10-uuid",
+      "title": "Easily Implement UUIDs as Primary Keys in Spring Boot 3",
+      "summary": "In this blog post, we will take a trip down memory lane and discuss the evolution of Jakarta EE (formerly known as Java EE) and its impact on enterprise development in Java. We will explore the role of the Eclipse Foundation in furthering the development of Jakarta EE and how it has led to the introduction of new APIs, fixes, and features. This article will also delve into one specific change in Jakarta EE 10, the ability to use a UUID as a primary key, and how it can be easily implemented in a Spring Boot 3 project using Spring Data JPA.",
+      "date_modified": "2023-01-27T10:00:00.000Z",
+      "date_published": "2023-01-27T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/01/31/graphql-custom-scalars",
+      "title": "GraphQL Scalars - How to use Custom Scalars in Java",
+      "summary": "Whether you're new to GraphQL or a seasoned user, understanding the scalar types in GraphQL is important. Within the GraphQL specification, there are five defined scalar types: int, float, string, boolean, and ID. These will work for many components of your schema definition. But what happens when you need a custom scalar? Unfortunately, you'll inevitably need to create a custom scalar at some point.",
+      "date_modified": "2023-01-31T08:00:00.000Z",
+      "date_published": "2023-01-31T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/02/03/native-images-graalvm",
+      "title": "Building Native Images in Java with GraalVM",
+      "summary": "When building native executables with GraalVM, you might run into issues when your application uses dynamic language features of the JVM. This article will walk you through a practical example of how to work with these types of features and provide metadata to GraalVM's Native Image Builder.",
+      "date_modified": "2023-02-03T10:00:00.000Z",
+      "date_published": "2023-02-03T10:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/02/spring-shell-intro",
+      "title": "Building Command Line Applications in Spring with Spring Shell",
+      "summary": "Today, we're going to talk about building command line applications using Spring Shell. Spring Shell allows you to use the programming model, tools, frameworks, and languages that you're used to using every day to build command line applications. We're going to build a command line application called \"Dad Joke\" that fetches a random dad joke from a public API.",
+      "date_modified": "2023-03-02T11:00:00.000Z",
+      "date_published": "2023-03-02T11:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/09/spring-boot-crash-course",
+      "title": "Getting Started with Spring: A Beginner's Guide",
+      "date_modified": "2023-03-09T11:30:00.000Z",
+      "date_published": "2023-03-09T11:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/12/notion-api-file-expired",
+      "title": "Notion API File Request has expired",
+      "summary": "If you follow me, you know I'm a huge fan of Notion. I use it for everything in my personal and professional life. Since the release of the Notion API, I've been playing with it, but I've never built anything that I was going to launch publicly.",
+      "date_modified": "2023-03-12T14:30:00.000Z",
+      "date_published": "2023-03-12T14:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/15/spring-security-lambda-dsl",
+      "title": "Spring Security Configuration - Lambda DSL",
+      "summary": "Hello, friends! Today, we'll discuss two different ways to configure Spring Security in your applications and create a basic security configuration in a Spring Boot project using each approach. I will walk you through each method, explaining the pros and cons of each, so that you can better understand the different configurations you might come across in your projects.",
+      "date_modified": "2023-03-15T09:30:00.000Z",
+      "date_published": "2023-03-15T09:30:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/20/graphql-mutations",
+      "title": "Working with GraphQL Mutations in Spring Boot",
+      "summary": "In this blog post, we'll be taking a look at mutations in GraphQL, specifically using Spring Boot, GraphQL Java, and Spring Data JPA. Up until now, we've mostly been focused on getting started with GraphQL and simple operations like queries. However, there's a lot more to GraphQL, like mutations, subscriptions, and new features in recent releases. Let's dive in and create a new project to explore these concepts!",
+      "date_modified": "2023-03-20T11:00:00.000Z",
+      "date_published": "2023-03-20T11:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/03/31/videotap",
+      "title": "Why VideoTap is a Game-Changer for Content Creators: Convert Videos to Blog Posts in Minutes!",
+      "summary": "Are you a content creator who struggles to find enough time to produce written content alongside videos? Do you wish there was an easy way to transform your videos into compelling blog posts? Look no further than VideoTap! This innovative service transcribes and converts your videos into high-quality blog posts, complete with code blocks and other engaging features. Plus, with their recent increase in video length limit to 25 minutes, most videos are a perfect fit. Say goodbye to the hassle of creating separate written content and hello to a more efficient workflow with VideoTap.",
+      "date_modified": "2023-03-31T16:00:00.000Z",
+      "date_published": "2023-03-31T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/04/12/virtual-threads-spring",
+      "title": "Spring into the Future: Embracing Virtual Threads with Java's Project Loom",
+      "summary": "Welcome back, friends! Today, we're diving into Project Loom and specifically virtual threads. We'll be covering what they are, why you should care as a Spring developer, and even provide a demo on using virtual threads in a Spring application. Let’s begin!",
+      "date_modified": "2023-04-12T16:00:00.000Z",
+      "date_published": "2023-04-12T16:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/04/14/graphql-client",
+      "title": "Create a GraphQL Client in Java with Spring Boot",
+      "summary": "If you're working on a Spring application and you need to call another REST API, you have tools such as RestTemplate or WebClient. But what if you need to call a GraphQL API? With Spring, a GraphQL Client is available. In this tutorial, you will learn how to include it in your project and use it by building a practical example.",
+      "date_modified": "2023-04-17T08:00:00.000Z",
+      "date_published": "2023-04-17T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/04/20/multiple-spring-security-configs",
+      "title": "Advanced Spring Security - How to create multiple Spring Security Configurations",
+      "summary": "Security is an important aspect of any application, and Spring Security makes it secure by default. In this tutorial, we will discuss how to create multiple Spring Security configurations and why you might want to do so. We'll cover everything from setting up a new project, to customizing security configurations, and exploring multiple security filter chains. So let's dive in!",
+      "date_modified": "2023-04-20T08:00:00.000Z",
+      "date_published": "2023-04-20T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/04/26/spring-boot-docker-compose",
+      "title": "🔥 New in Spring Boot 3.1 - Spring Boot Docker Compose Module",
+      "summary": "In this article we're talking all about Spring Boot 3.1 RC1, which has just been released with many great features. In particular, we're going to focus on the ability to use Docker Compose files directly with Spring Boot applications.",
+      "date_modified": "2023-04-26T08:00:00.000Z",
+      "date_published": "2023-04-26T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/04/28/spring-security-oauth2-login",
+      "title": "OAuth2 Login Made Easy in Java: A Spring Boot & Spring Security Walkthrough",
+      "summary": "In this tutorial, we will discuss how to set up OAuth 2 logins in Spring Security with Spring Boot. OAuth 2 logins are a convenient way to let your users log in via social media (GitHub, Google, Twitter) without needing to register on your system.",
+      "date_modified": "2023-04-28T08:00:00.000Z",
+      "date_published": "2023-04-28T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/05/03/spring-session-introduction",
+      "title": "Demystifying Spring Session: A Comprehensive Introduction for Java Developers!",
+      "date_modified": "2023-05-03T08:00:00.000Z",
+      "date_published": "2023-05-03T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/05/19/aws-lambda-java-17",
+      "title": "Java 17 🤝 AWS Lambda: Creating Serverless Functions in Java & Spring with Java 17",
+      "summary": "AWS has made a big announcement recently: Java 17 runtime is now supported on AWS Lambda. What this means is, you now have the freedom to write your lambda functions using Java in Spring and specifically target JDK 17.",
+      "date_modified": "2023-05-19T08:00:00.000Z",
+      "date_published": "2023-05-19T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/06/12/spring-http-interfaces-headers",
+      "title": "How to add Request Headers using HTTP Interfaces in Spring Boot 3",
+      "summary": "In this article, we'll be exploring how to customize HTTP interfaces in Spring Boot 3. This stemmed from a question that popped up during a recent presentation I gave: How do you add headers to requests? Be it for a single request, where you may want to add one header and its value, or for multiple or all requests sent to a certain service – how do you accomplish that? This post aims to dive right into these questions!",
+      "date_modified": "2023-06-14T08:00:00.000Z",
+      "date_published": "2023-06-14T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/06/14/spring-http-interfaces",
+      "title": "Spring HTTP Interface Clients: Consuming HTTP services in Spring Boot",
+      "summary": "In this blog post, we will explore the concept of HTTP interface clients in the Spring Framework 6 and Spring Boot 3. We will go through the process of creating a full REST API in Spring MVC and then create a new service to consume that API using Spring's HTTP interface clients. This blog post will provide a step-by-step guide and example code snippets to help you understand the implementation details. So, let's get started!",
+      "date_modified": "2023-06-14T08:00:00.000Z",
+      "date_published": "2023-06-14T08:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/06/30/aws-lambda-spring-boot-3",
+      "title": "Deploying Spring Boot 3 Applications to AWS Lambda",
+      "summary": "Welcome to this detailed and comprehensive blog post about deploying Spring Boot applications to AWS Lambda! If you've been searching for a solution to hosting your personal Spring Boot projects without breaking the bank, you're in the right place. In this blog post, we'll cover everything you need to know about deploying your Spring Boot apps to AWS Lambda, including why you might want to do it, the benefits of serverless computing, and a step-by-step guide on how to get started.",
+      "date_modified": "2023-06-30T15:00:00.000Z",
+      "date_published": "2023-06-30T15:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/07/13/graphql-schema-mapping-inspection",
+      "title": "Spring for GraphQL Schema Mapping Inspection Report",
+      "summary": "If you have been following this channel, you know that Im am a big fan of GraphQL, especially when paired with Spring. Today, we will delve into some exciting new releases in Spring for GraphQL and share how they can improve your development workflow.",
+      "date_modified": "2023-07-13T15:00:00.000Z",
+      "date_published": "2023-07-13T15:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/07/17/pgadmin-docker-compose",
+      "title": "Streamline Your Development: Spring Boot with PostgreSQL & pgAdmin in Docker",
+      "summary": "In a previous blog post we looked at the new Docker Compose feature that was added to Spring Boot 3.1. In that article (and accompanying video) Spring Boot 3.1 had yet to be released and since then a couple of things have changed so I decided to follow it up with another tutorial. I also received a few questions around how to gain visibility into a PostgreSQL database when using it inside of a container so I will try and answer that here as well.",
+      "date_modified": "2023-07-17T17:00:00.000Z",
+      "date_published": "2023-07-17T17:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/09/08/rest-client-first-look",
+      "title": "A First Look at the new Rest Client in Spring Boot 3.2",
+      "summary": "Greetings, folks! It's Dan Vega, Spring developer advocate at VMware. Today, I am thrilled to dive into Spring Boot 3.2 and its new REST client. But before we do, let's take a moment to examine our journey to this moment.",
+      "date_modified": "2023-09-08T17:00:00.000Z",
+      "date_published": "2023-09-08T17:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/09/11/spring-jdbc-client",
+      "title": "A First Look at the new JDBC Client in Spring Boot 3.2",
+      "summary": "In this tutorial, we'll be diving into the fresh waters of the new JDBC client in Spring Framework 6.1 and Spring Boot 3.2.",
+      "date_modified": "2023-09-11T17:00:00.000Z",
+      "date_published": "2023-09-11T17:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    },
+    {
+      "url": "/blog/2023/09/17/spring-boot-starter",
+      "title": "The Number One Spring Boot Starter You Should Include in Every Project",
+      "summary": "In this article, we will focus on the most important Spring Boot starter that you should include in all of your projects. When creating a new Spring Boot Application, you have multiple choices for the dependencies you should include based on what you're building. While this is just my opinion, I will share what I believe is the number one Spring Boot Starter that you should include in each of your applications. Before reading the entire article, do you have any guesses?",
+      "date_modified": "2023-09-17T17:00:00.000Z",
+      "date_published": "2023-09-17T17:00:00.000Z",
+      "author": {
+        "name": "Dan Vega"
+      }
+    }
+  ]
+}
