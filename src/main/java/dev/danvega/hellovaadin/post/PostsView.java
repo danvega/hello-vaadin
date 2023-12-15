@@ -10,17 +10,16 @@ import java.util.List;
 @Route("posts")
 class PostsView extends Div {
 
-    private final PostService postService;
 
     public PostsView(PostService postService) {
-        this.postService = postService;
+        setHeightFull();
         Grid<Post> grid = new Grid<>(Post.class, false);
         grid.addColumn(Post::title).setHeader("Title");
         grid.addColumn(Post::summary).setHeader("Summary");
         grid.addColumn(Post::url).setHeader("URL");
         grid.addColumn(Post::datePublished).setHeader("Date Published");
         grid.addThemeVariants(GridVariant.LUMO_COMPACT);
-        grid.setAllRowsVisible(true);
+        grid.setHeightFull();
         List<Post> posts = postService.findAll();
         grid.setItems(posts);
 
