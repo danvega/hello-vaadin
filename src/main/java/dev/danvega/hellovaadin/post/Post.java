@@ -9,7 +9,8 @@ public record Post(
         String summary,
         String url,
         @JsonProperty("date_published")
-        LocalDate datePublished
+        LocalDate datePublished,
+        Author author
 ) {
 
 }
